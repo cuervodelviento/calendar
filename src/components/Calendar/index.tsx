@@ -1,41 +1,41 @@
-import { Item } from './styled'
-import { CalendarGrid } from './styled'
+import { CalendarWeek, CalendarWrapper, Item } from './styled'
 
 const Calendar = () => {
   return (
-    <CalendarGrid>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-      <Item></Item>
-    </CalendarGrid>
+    <CalendarWrapper>
+      <CalendarWeek>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+      </CalendarWeek>
+    </CalendarWrapper>
   )
 }
 
