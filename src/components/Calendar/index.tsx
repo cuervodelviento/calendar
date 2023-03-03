@@ -1,41 +1,40 @@
-import CalendarItem from '../CalendarItem'
-import { Item } from '../CalendarItem/styled'
+import { Item } from './styled'
 import { CalendarGrid } from './styled'
 
 const Calendar = () => {
   return (
     <CalendarGrid>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
-      <CalendarItem></CalendarItem>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
     </CalendarGrid>
   )
 }
