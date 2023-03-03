@@ -1,5 +1,8 @@
 import Container from './components/Container'
 
+import '@fontsource/roboto'
+import './styles/global.css'
+
 function App() {
   return (
     <div className="App">
