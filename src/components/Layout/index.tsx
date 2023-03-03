@@ -1,11 +1,14 @@
-import { Calendar, Header, Page, Sidebar } from './styled'
+import Calendar from '../Calendar'
+import { CalendarContainer, Header, Page, Sidebar } from './styled'
 
 const Layout = () => {
   return (
     <Page>
       <Header>header</Header>
       <Sidebar>sidebar</Sidebar>
-      <Calendar>calendar</Calendar>
+      <CalendarContainer>
+        <Calendar />
+      </CalendarContainer>
     </Page>
   )
 }

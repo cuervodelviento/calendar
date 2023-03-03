@@ -20,7 +20,7 @@ export const Sidebar = styled.div`
   border: 5px solid lightgreen;
 `
 
-export const Calendar = styled.div`
+export const CalendarContainer = styled.div`
   grid-area: calendar;
   border: 5px solid lightsalmon;
 `
