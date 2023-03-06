@@ -11,7 +11,7 @@ export const CalendarWrapper = styled.div`
 
 export const CalendarWeek = styled.div`
   display: grid;
-  grid-template-columns: auto repeat(6, minmax(var(--minInlineSize), var(--maxInlineSize)));
+  grid-template-columns: auto repeat(7, minmax(var(--minInlineSize), var(--maxInlineSize)));
   grid-template-rows: 7rem repeat(24, minmax(var(--minBlockSize), var(--maxBlockSize)));
   min-block-size: 700px;
 `
@@ -89,5 +89,43 @@ export const ItemDetail = styled.div`
   p {
     margin: 0;
     white-space: nowrap;
+  }
+`
+
+export const TimezoneCell = styled.div`
+  font: var(--body3-regular);
+  position: sticky;
+  inset-block-start: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-inline-end: 1rem;
+  white-space: nowrap;
+  transform: translateY(1em);
+  background-color: var(--white);
+
+  ::before {
+    content: '';
+    inline-size: 0.5rem;
+    block-size: 1px;
+    background-color: var(--gray20);
+    position: absolute;
+    inset-inline-end: 0;
+    inset-block-end: 0;
+  }
+`
+
+export const HourCell = styled.span`
+  place-self: start end;
+  font: var(--body3-regular);
+  padding-inline-end: 1rem;
+  ::before {
+    content: '';
+    inline-size: 0.5rem;
+    block-size: 1px;
+    background-color: var(--gray20);
+    position: absolute;
+    inset-inline-end: 0;
+    inset-block-end: 0;
   }
 `

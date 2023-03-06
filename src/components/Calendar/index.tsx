@@ -1,9 +1,18 @@
-import { CalendarDay, CalendarWeek, CalendarWrapper, Item, ItemDetail } from './styled'
+import {
+  CalendarDay,
+  CalendarWeek,
+  CalendarWrapper,
+  HourCell,
+  Item,
+  ItemDetail,
+  TimezoneCell,
+} from './styled'
 
 const Calendar = () => {
   return (
     <CalendarWrapper>
       <CalendarWeek>
+        <TimezoneCell>GMT -5</TimezoneCell>
         <CalendarDay>
           <a href="#dia">
             <time dateTime="06-06-2021">
@@ -67,7 +76,7 @@ const Calendar = () => {
             </time>
           </a>
         </CalendarDay>
-
+        <HourCell></HourCell>
         <Item>
           <ItemDetail tabIndex={0}>
             <p>Hacer ejercicio</p>
@@ -89,6 +98,7 @@ const Calendar = () => {
         <Item></Item>
         <Item></Item>
         <Item></Item>
+        <HourCell>1 AM</HourCell>
         <Item></Item>
         <Item></Item>
         <Item></Item>
@@ -96,6 +106,7 @@ const Calendar = () => {
         <Item></Item>
         <Item></Item>
         <Item></Item>
+        <HourCell>2 AM</HourCell>
         <Item></Item>
         <Item></Item>
         <Item></Item>
@@ -103,6 +114,7 @@ const Calendar = () => {
         <Item></Item>
         <Item></Item>
         <Item></Item>
+        <HourCell>3 AM</HourCell>
         <Item></Item>
         <Item></Item>
         <Item></Item>
@@ -110,6 +122,7 @@ const Calendar = () => {
         <Item></Item>
         <Item></Item>
         <Item></Item>
+        <HourCell>4 AM</HourCell>
         <Item></Item>
         <Item></Item>
         <Item></Item>
@@ -117,8 +130,151 @@ const Calendar = () => {
         <Item></Item>
         <Item></Item>
         <Item></Item>
+        <HourCell>5 AM</HourCell>
         <Item></Item>
         <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>6 AM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>7 AM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>8 AM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>9 AM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>10 AM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>11 AM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>12 PM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>1 PM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>2 PM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>3 PM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>4 PM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>5 PM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>6 PM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>7 PM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>8 PM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>9 PM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>10 PM</HourCell>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <HourCell>11 PM</HourCell>
       </CalendarWeek>
     </CalendarWrapper>
   )
