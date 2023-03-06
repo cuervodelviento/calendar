@@ -2,6 +2,7 @@ import {
   CalendarDay,
   CalendarWeek,
   CalendarWrapper,
+  CurrentTime,
   HourCell,
   Item,
   ItemDetail,
@@ -12,6 +13,7 @@ const Calendar = () => {
   return (
     <CalendarWrapper>
       <CalendarWeek>
+        <CurrentTime />
         <TimezoneCell>GMT -5</TimezoneCell>
         <CalendarDay>
           <a href="#dia">

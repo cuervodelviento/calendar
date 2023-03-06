@@ -21,6 +21,10 @@ export const Item = styled.div`
   border-inline-start: 1px solid currentColor;
   border-block-end: 1px solid currentColor;
   padding: 0.25rem;
+  :nth-of-type(3) {
+    grid-row: 2;
+    grid-column: 2;
+  }
 `
 export const CalendarDay = styled.h2<{ isActive?: boolean }>`
   display: flex;
@@ -128,5 +132,25 @@ export const HourCell = styled.span`
     position: absolute;
     inset-inline-end: 0;
     inset-block-end: 50%;
+  }
+`
+
+export const CurrentTime = styled.div`
+  block-size: 2px;
+  background: var(--red10);
+  grid-row: 2;
+  grid-column: 2;
+  transform: translateY(24px);
+  top: 0;
+
+  z-index: 2;
+  ::before {
+    content: '';
+    inline-size: 1rem;
+    block-size: 1rem;
+    background-color: var(--red10);
+    border-radius: 50%;
+    display: inline-block;
+    transform: translateY(-50%);
   }
 `
