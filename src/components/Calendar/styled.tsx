@@ -118,14 +118,15 @@ export const TimezoneCell = styled.div`
 export const HourCell = styled.span`
   place-self: start end;
   font: var(--body3-regular);
+  transform: translateY(-50%);
   padding-inline-end: 1rem;
   ::before {
     content: '';
     inline-size: 0.5rem;
     block-size: 1px;
-    background-color: var(--gray20);
+    background: currentColor;
     position: absolute;
     inset-inline-end: 0;
-    inset-block-end: 0;
+    inset-block-end: 50%;
   }
 `
